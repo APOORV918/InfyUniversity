@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests clean package'
+                sh ' cd C:\ProgramData\Jenkins\.jenkins\workspace\InfyUniversity && mvn -B -DskipTests clean package'
             }
         }
     }

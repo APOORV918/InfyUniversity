@@ -41,9 +41,9 @@ public class CandidateServiceImpl implements CandidateService{
 		} else {
 			float average = (candidateReportTO.getMark1() + candidateReportTO.getMark2() + candidateReportTO.getMark3())
 					/ 3f;
-			if(average >= 85.0)
+			if(average >= 80.0)
 				grade= "A";
-			else if(average >= 75.0 && average < 85.0)
+			else if(average >= 70.0 && average < 80.0)
 				grade= "B";
 			else
 				grade="C";

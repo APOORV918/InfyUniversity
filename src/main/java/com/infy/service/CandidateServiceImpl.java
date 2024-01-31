@@ -19,7 +19,7 @@ public class CandidateServiceImpl implements CandidateService{
 		
 	Character tempResult = 'P';
 		
-		if (candidate.getMark1() < 50 || candidate.getMark2() < 50 || candidate.getMark3() < 50) {
+		if (candidate.getMark1() < 60 || candidate.getMark2() < 60 || candidate.getMark3() < 60) {
 			tempResult = 'F';
 		}
 		if (!candidate.getResult().equals(tempResult)) {
